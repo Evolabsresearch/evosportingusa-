@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Barlow_Condensed } from "next/font/google";
+import { Inter, Oswald } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { CartProvider } from "@/components/cart-provider";
 import { EmailCapturePopup } from "@/components/email-capture-popup";
@@ -15,10 +15,10 @@ const fontBody = Inter({
   display: "swap",
 });
 
-const fontDisplay = Barlow_Condensed({
-  variable: "--font-barlow",
+const fontDisplay = Oswald({
+  variable: "--font-oswald",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 

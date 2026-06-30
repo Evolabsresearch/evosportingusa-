@@ -103,7 +103,7 @@ async function main() {
     if (!iconLinks.some((link) => link.href.includes("/icon.svg"))) {
       throw new Error("SVG app icon link was not present in the page head");
     }
-    await expectVisible(page, "text=Strength gear for the room you train in three times a week", "homepage promo hero");
+    await expectVisible(page, "text=Train heavy. Demand more from your gear", "homepage promo hero");
     await expectVisible(page, "text=Shop by category", "homepage category section");
     await expectVisible(page, ".bb-category-tile", "homepage category tiles");
     await expectVisible(page, "text=Bestsellers", "homepage bestsellers rail");
@@ -293,7 +293,7 @@ async function main() {
     await page.setViewportSize({ width: 390, height: 900 });
     await gotoReady(page, baseUrl);
     await expectVisible(page, "text=Shop all gear", "mobile hero button");
-    await expectVisible(page, "text=Strength gear for the room you train in three times a week", "mobile hero heading");
+    await expectVisible(page, "text=Train heavy. Demand more from your gear", "mobile hero heading");
     await expectVisible(page, "text=Shop by category", "mobile category section");
     await expectNoHorizontalOverflow(page, "mobile home");
     await screenshot(page, "home-mobile");

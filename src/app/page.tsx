@@ -55,10 +55,10 @@ export default function Home() {
         <div className="bb-hero-shade" />
         <div className="bb-hero-content">
           <p className="bb-hero-kicker">New customers · code {promoCode}</p>
-          <h1>Strength gear for the room you train in three times a week.</h1>
+          <h1>Train heavy. Demand more from your gear.</h1>
           <p className="bb-hero-sub">
-            Belts, bars, benches, plates, and dumbbells — sized for home racks,
-            built to last. Take 20% off your first order with code {promoCode}.
+            Belts, bars, benches, plates, and dumbbells - built to take a beating
+            and priced for real racks. Take 20% off your first order with code {promoCode}.
           </p>
           <div className="bb-hero-actions">
             <Link className="button button-dark" href="/collections">

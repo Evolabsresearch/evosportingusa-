@@ -1,0 +1,45 @@
+{
+  "name": "evo-sporting-usa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "scrape:reference": "node scripts/scrape-reference-site.mjs",
+    "generate:catalog": "node scripts/generate-evo-catalog.mjs",
+    "generate:images": "node scripts/generate-product-images.mjs",
+    "optimize:images": "node scripts/optimize-product-images.mjs",
+    "analyze:pricing": "node scripts/analyze-pricing.mjs",
+    "verify:pricing": "node scripts/verify-pricing-analysis.mjs",
+    "verify:catalog": "node scripts/verify-catalog.mjs",
+    "verify:low-ticket": "node scripts/verify-low-ticket-catalog.mjs",
+    "verify:public-copy": "node scripts/verify-public-copy.mjs",
+    "audit:slop": "node scripts/audit-ai-slop.mjs",
+    "verify:structured-data": "node scripts/verify-structured-data.mjs",
+    "verify:accessibility": "node scripts/verify-accessibility.mjs",
+    "verify:store": "node scripts/verify-store.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.8.0",
+    "lucide-react": "^1.17.0",
+    "next": "16.2.6",
+    "openai": "^6.39.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "playwright": "^1.60.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

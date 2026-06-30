@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title">
+  <title>EVO 25 lb Textured Medicine Ball</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8fafc" offset="0"/>
+      <stop stop-color="#e5e7eb" offset="1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" rx="54" fill="url(#bg)"/>
+  <circle cx="960" cy="220" r="128" fill="#f97316" opacity=".14"/>
+  <circle cx="220" cy="950" r="190" fill="#111827" opacity=".08"/>
+  <ellipse cx="600" cy="858" rx="360" ry="58" fill="#cbd5e1" opacity=".55"/>
+
+      <g filter="url(#shadow)">
+        <circle cx="600" cy="590" r="255" fill="#111827"/>
+        <path d="M392 515 C498 575 702 575 808 515" fill="none" stroke="#f97316" stroke-width="38"/>
+        <path d="M448 736 C555 682 645 682 752 736" fill="none" stroke="#fff" stroke-opacity=".24" stroke-width="32"/>
+        <path d="M600 338 C520 470 520 710 600 842 C680 710 680 470 600 338Z" fill="none" stroke="#f97316" stroke-width="28"/>
+      </g>
+</svg>

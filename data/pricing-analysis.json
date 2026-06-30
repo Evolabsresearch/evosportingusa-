@@ -1,0 +1,2317 @@
+{
+  "summary": {
+    "observedAt": "2026-05-31",
+    "skuCount": 102,
+    "averagePrice": 45.24,
+    "underSixtyAverage": true,
+    "reviewCount": 0,
+    "categoryCounts": {
+      "Lifting Supports": 12,
+      "Straps & Grips": 16,
+      "Chalk & Grip Basics": 10,
+      "Gym Bag Essentials": 10,
+      "Setup & Mobility Minis": 10,
+      "Dumbbells & Weights": 8,
+      "Plates, Bars & Collars": 8,
+      "Benches & Racks": 4,
+      "Pull-Up & Mobility": 8,
+      "Conditioning": 7,
+      "Storage & Recovery": 4,
+      "Training Bundles": 5
+    }
+  },
+  "sources": {
+    "rogue-ohio-straps": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Ohio Lifting Straps",
+      "url": "https://www.roguefitness.com/rogue-ohio-lifting-straps",
+      "observed": "$14.00-$19.00 official Rogue strap anchors; Ohio cotton straps visible at $19.00 and Rogue nylon straps visible at $14.00.",
+      "notes": "Basic straight-strap anchor used for cotton straps and bundle component value; EVO figure-8 straps still price above this because they use more webbing and reinforcement."
+    },
+    "rogue-wrist-wraps": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Wrist Wraps",
+      "url": "https://www.roguefitness.com/rogue-wrist-wraps",
+      "observed": "$15.00",
+      "notes": "Entry wrist wrap anchor."
+    },
+    "rogue-knee-support": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Knee sleeves and support category",
+      "url": "https://www.roguefitness.com/lifting-straps-wraps/protection-supports/knee-sleeves",
+      "observed": "$14.00-$97.00 visible category range; Rogue sleeve pairs shown at $45.00-$80.00",
+      "notes": "Broad support category anchor; EVO sleeve pairs are positioned against the midrange pair prices, not the cheapest single/item listings."
+    },
+    "rogue-gym-chalk": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Gym Chalk",
+      "url": "https://www.roguefitness.com/rogue-gym-chalk",
+      "observed": "$16.00",
+      "notes": "Magnesium carbonate chalk anchor."
+    },
+    "rogue-liquid-chalk": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Spider Chalk Liquid Chalk",
+      "url": "https://www.roguefitness.com/spider-chalk-liquid-chalk",
+      "observed": "$12.95-$22.95",
+      "notes": "Liquid chalk anchor range."
+    },
+    "rep-hex-dumbbells": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "REP Fitness",
+      "product": "Rubber Hex Dumbbell Pairs",
+      "url": "https://repfitness.com/products/rubber-hex-dumbbell-pairs",
+      "observed": "10 lb $54.99, 15 lb $74.99, 20 lb $94.99, 25 lb $129.99, 30 lb $149.99, 35 lb $164.99, 40 lb $179.99, 45 lb $194.99",
+      "notes": "Primary rubber hex pair benchmark from official pair option pricing."
+    },
+    "rogue-echo-bumpers": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Echo Bumper Plates",
+      "url": "https://www.roguefitness.com/rogue-echo-bumper-plates.php",
+      "observed": "10 lb pair $48.00, 15 lb pair $69.00, 25 lb pair $100.00, 35 lb pair $132.00, 45 lb pair $174.00",
+      "notes": "Olympic bumper plate pair benchmark."
+    },
+    "rogue-ohio-bar": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "The Ohio Bar - Cerakote",
+      "url": "https://www.roguefitness.com/the-ohio-bar-cerakote",
+      "observed": "$365.00",
+      "notes": "Premium 20 kg barbell anchor."
+    },
+    "rogue-aluminum-collars": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue USA Aluminum Collars",
+      "url": "https://www.roguefitness.com/rogue-usa-aluminum-collars",
+      "observed": "$45.00",
+      "notes": "Aluminum collar pair anchor."
+    },
+    "rep-ab-3100": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "REP Fitness",
+      "product": "AB-3100 Adjustable Weight Bench",
+      "url": "https://repfitness.com/products/ab-3100-adjustable-weight-bench?variant=41067587698846",
+      "observed": "$269.99",
+      "notes": "Adjustable bench anchor."
+    },
+    "rogue-monster-bands": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Monster Bands",
+      "url": "https://www.roguefitness.com/rogue-monster-bands",
+      "observed": "single bands $17.00-$65.00, #0 pair $18.00, pull-up packages $71.00-$75.00",
+      "notes": "Latex mobility and pull-up band anchor range from visible official options."
+    },
+    "rogue-ab-wheel": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Ab Wheel",
+      "url": "https://www.roguefitness.com/rogue-ab-wheel",
+      "observed": "$90.00",
+      "notes": "Premium ab wheel anchor."
+    },
+    "titan-pullup-bar": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Titan Fitness",
+      "product": "Ceiling & Wall-Mounted Pull-Up Bar",
+      "url": "https://titan.fitness/products/wall-mounted-pull-up-bar",
+      "observed": "$84.97 sale price, $104.99 compare-at",
+      "notes": "Steel wall/ceiling pull-up bar anchor with visible sale and compare-at price."
+    },
+    "rogue-speed-rope": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue SR-2 Speed Rope 3.0",
+      "url": "https://www.roguefitness.com/rogue-sr-2-speed-rope-3-0",
+      "observed": "$49.00",
+      "notes": "Premium bearing speed rope anchor."
+    },
+    "rogue-licorice-rope": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Licorice Jump Ropes",
+      "url": "https://www.roguefitness.com/rogue-licorice-jump-ropes",
+      "observed": "$9.00 single rope; $79.00 10-pack",
+      "notes": "Entry jump rope anchor from official single-size options."
+    },
+    "rogue-lacrosse-balls": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Lacrosse Balls",
+      "url": "https://www.roguefitness.com/rogue-lacrosse-balls",
+      "observed": "$7.00 single, $27.50 5-pack, $50.00 10-pack",
+      "notes": "Small mobility tool anchor from official single and pack options."
+    },
+    "rogue-cannonball-grips": {
+      "sourceType": "official brand product/category page",
+      "verifiedAt": "2026-05-31",
+      "checkMethod": "Manual public-source spot check against official pages and visible search snippets.",
+      "brand": "Rogue Fitness",
+      "product": "Rogue Cannonball Grips",
+      "url": "https://www.roguefitness.com/cannonball-grips",
+      "observed": "$37.00 strap/carabiner accessory set, $58.00 grip pair, $80.00 grip system",
+      "notes": "Grip training accessory anchor range from official Cannonball options."
+    }
+  },
+  "products": [
+    {
+      "sku": "AXS-0001",
+      "slug": "evo-light-core-back-support-belt",
+      "name": "EVO Light Core Back Support Belt",
+      "category": "Lifting Supports",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 34,
+        "high": 75,
+        "anchor": 50
+      },
+      "deltaToAnchorPercent": -30.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "lifting support belt",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Support belt pricing is set inside the broader brace/sleeve support accessory band."
+    },
+    {
+      "sku": "AXS-0002",
+      "slug": "evo-everyday-core-back-support-belt",
+      "name": "EVO Everyday Core Back Support Belt",
+      "category": "Lifting Supports",
+      "evoPrice": 44.95,
+      "marketBand": {
+        "low": 34,
+        "high": 75,
+        "anchor": 50
+      },
+      "deltaToAnchorPercent": -10.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "lifting support belt",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Support belt pricing is set inside the broader brace/sleeve support accessory band."
+    },
+    {
+      "sku": "AXS-0003",
+      "slug": "evo-4-in-nylon-quick-lock-lifting-belt",
+      "name": "EVO 4 in. Nylon Quick-Lock Lifting Belt",
+      "category": "Lifting Supports",
+      "evoPrice": 54.95,
+      "marketBand": {
+        "low": 34,
+        "high": 75,
+        "anchor": 50
+      },
+      "deltaToAnchorPercent": 9.9,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "lifting support belt",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Support belt pricing is set inside the broader brace/sleeve support accessory band."
+    },
+    {
+      "sku": "AXS-0004",
+      "slug": "evo-light-compression-knee-sleeve-pair",
+      "name": "EVO Light Compression Knee Sleeve Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 39.95,
+      "marketBand": {
+        "low": 34,
+        "high": 97,
+        "anchor": 60
+      },
+      "deltaToAnchorPercent": -33.4,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "compression sleeve pair",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Sleeve pairs should range from light support to premium compression without exceeding specialty-brand upper tiers."
+    },
+    {
+      "sku": "AXS-0005",
+      "slug": "evo-training-compression-knee-sleeve-pair",
+      "name": "EVO Training Compression Knee Sleeve Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 54.95,
+      "marketBand": {
+        "low": 34,
+        "high": 97,
+        "anchor": 60
+      },
+      "deltaToAnchorPercent": -8.4,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "compression sleeve pair",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Sleeve pairs should range from light support to premium compression without exceeding specialty-brand upper tiers."
+    },
+    {
+      "sku": "AXS-0006",
+      "slug": "evo-light-elbow-sleeve-pair",
+      "name": "EVO Light Elbow Sleeve Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 34,
+        "high": 97,
+        "anchor": 60
+      },
+      "deltaToAnchorPercent": -41.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "compression sleeve pair",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Sleeve pairs should range from light support to premium compression without exceeding specialty-brand upper tiers."
+    },
+    {
+      "sku": "AXS-0007",
+      "slug": "evo-training-elbow-sleeve-pair",
+      "name": "EVO Training Elbow Sleeve Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 44.95,
+      "marketBand": {
+        "low": 34,
+        "high": 97,
+        "anchor": 60
+      },
+      "deltaToAnchorPercent": -25.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "compression sleeve pair",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Sleeve pairs should range from light support to premium compression without exceeding specialty-brand upper tiers."
+    },
+    {
+      "sku": "AXS-0008",
+      "slug": "evo-power-elbow-sleeve-pair",
+      "name": "EVO Power Elbow Sleeve Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 64.95,
+      "marketBand": {
+        "low": 34,
+        "high": 97,
+        "anchor": 60
+      },
+      "deltaToAnchorPercent": 8.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "compression sleeve pair",
+      "sourceIds": [
+        "rogue-knee-support"
+      ],
+      "rationale": "Sleeve pairs should range from light support to premium compression without exceeding specialty-brand upper tiers."
+    },
+    {
+      "sku": "AXS-0009",
+      "slug": "evo-12-in-stabilizing-wrist-wrap-pair",
+      "name": "EVO 12 in. Stabilizing Wrist Wrap Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 15,
+        "high": 40,
+        "anchor": 15
+      },
+      "deltaToAnchorPercent": 33,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "wrist wrap pair",
+      "sourceIds": [
+        "rogue-wrist-wraps"
+      ],
+      "rationale": "Short wraps can sit near entry brand pricing; longer/pro wraps earn higher price through length and stiffness."
+    },
+    {
+      "sku": "AXS-0010",
+      "slug": "evo-18-in-stabilizing-wrist-wrap-pair",
+      "name": "EVO 18 in. Stabilizing Wrist Wrap Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 15,
+        "high": 40,
+        "anchor": 15
+      },
+      "deltaToAnchorPercent": 66.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "wrist wrap pair",
+      "sourceIds": [
+        "rogue-wrist-wraps"
+      ],
+      "rationale": "Short wraps can sit near entry brand pricing; longer/pro wraps earn higher price through length and stiffness."
+    },
+    {
+      "sku": "AXS-0011",
+      "slug": "evo-24-in-stabilizing-wrist-wrap-pair",
+      "name": "EVO 24 in. Stabilizing Wrist Wrap Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 15,
+        "high": 40,
+        "anchor": 15
+      },
+      "deltaToAnchorPercent": 99.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "wrist wrap pair",
+      "sourceIds": [
+        "rogue-wrist-wraps"
+      ],
+      "rationale": "Short wraps can sit near entry brand pricing; longer/pro wraps earn higher price through length and stiffness."
+    },
+    {
+      "sku": "AXS-0012",
+      "slug": "evo-pro-30-in-stabilizing-wrist-wrap-pair",
+      "name": "EVO Pro 30 in. Stabilizing Wrist Wrap Pair",
+      "category": "Lifting Supports",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 15,
+        "high": 40,
+        "anchor": 15
+      },
+      "deltaToAnchorPercent": 133,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "wrist wrap pair",
+      "sourceIds": [
+        "rogue-wrist-wraps"
+      ],
+      "rationale": "Short wraps can sit near entry brand pricing; longer/pro wraps earn higher price through length and stiffness."
+    },
+    {
+      "sku": "AXS-0013",
+      "slug": "evo-cotton-lifting-strap-pair",
+      "name": "EVO Cotton Lifting Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 14,
+        "high": 35,
+        "anchor": 19
+      },
+      "deltaToAnchorPercent": 5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "cotton lifting strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Basic straight straps are anchored by Rogue's current $14-$19 official range; longer and padded EVO variants can carry a modest premium."
+    },
+    {
+      "sku": "AXS-0014",
+      "slug": "evo-padded-cotton-lifting-strap-pair",
+      "name": "EVO Padded Cotton Lifting Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 14,
+        "high": 35,
+        "anchor": 19
+      },
+      "deltaToAnchorPercent": 31.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "cotton lifting strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Basic straight straps are anchored by Rogue's current $14-$19 official range; longer and padded EVO variants can carry a modest premium."
+    },
+    {
+      "sku": "AXS-0015",
+      "slug": "evo-long-cotton-lifting-strap-pair",
+      "name": "EVO Long Cotton Lifting Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 14,
+        "high": 35,
+        "anchor": 19
+      },
+      "deltaToAnchorPercent": 57.6,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "cotton lifting strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Basic straight straps are anchored by Rogue's current $14-$19 official range; longer and padded EVO variants can carry a modest premium."
+    },
+    {
+      "sku": "AXS-0016",
+      "slug": "evo-heavy-cotton-lifting-strap-pair",
+      "name": "EVO Heavy Cotton Lifting Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 14,
+        "high": 35,
+        "anchor": 19
+      },
+      "deltaToAnchorPercent": 83.9,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "cotton lifting strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Basic straight straps are anchored by Rogue's current $14-$19 official range; longer and padded EVO variants can carry a modest premium."
+    },
+    {
+      "sku": "AXS-0017",
+      "slug": "evo-small-figure-8-deadlift-strap-pair",
+      "name": "EVO Small Figure-8 Deadlift Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 24,
+        "high": 40,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -16.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "figure-8 deadlift strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Figure-8 straps use more webbing and reinforcement than straight cotton straps, so they sit above the $15 basic strap anchor."
+    },
+    {
+      "sku": "AXS-0018",
+      "slug": "evo-medium-figure-8-deadlift-strap-pair",
+      "name": "EVO Medium Figure-8 Deadlift Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 24,
+        "high": 40,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -0.2,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "figure-8 deadlift strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Figure-8 straps use more webbing and reinforcement than straight cotton straps, so they sit above the $15 basic strap anchor."
+    },
+    {
+      "sku": "AXS-0019",
+      "slug": "evo-large-figure-8-deadlift-strap-pair",
+      "name": "EVO Large Figure-8 Deadlift Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 24,
+        "high": 40,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": 16.5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "figure-8 deadlift strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Figure-8 straps use more webbing and reinforcement than straight cotton straps, so they sit above the $15 basic strap anchor."
+    },
+    {
+      "sku": "AXS-0020",
+      "slug": "evo-competition-figure-8-deadlift-strap-pair",
+      "name": "EVO Competition Figure-8 Deadlift Strap Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 39.95,
+      "marketBand": {
+        "low": 24,
+        "high": 40,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": 33.2,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "figure-8 deadlift strap pair",
+      "sourceIds": [
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Figure-8 straps use more webbing and reinforcement than straight cotton straps, so they sit above the $15 basic strap anchor."
+    },
+    {
+      "sku": "AXS-0021",
+      "slug": "evo-palm-grip-pad-pair",
+      "name": "EVO Palm Grip Pad Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -16.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "grip pad or pull-up grip pair",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip aids stay below premium grip tools while pricing above basic chalk."
+    },
+    {
+      "sku": "AXS-0022",
+      "slug": "evo-ventilated-palm-grip-pad-pair",
+      "name": "EVO Ventilated Palm Grip Pad Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -16.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "grip pad or pull-up grip pair",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip aids stay below premium grip tools while pricing above basic chalk."
+    },
+    {
+      "sku": "AXS-0023",
+      "slug": "evo-gel-palm-grip-pad-pair",
+      "name": "EVO Gel Palm Grip Pad Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": 16.5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "grip pad or pull-up grip pair",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip aids stay below premium grip tools while pricing above basic chalk."
+    },
+    {
+      "sku": "AXS-0024",
+      "slug": "evo-two-finger-pull-up-hand-grip-pair",
+      "name": "EVO Two-Finger Pull-Up Hand Grip Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -0.2,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "grip pad or pull-up grip pair",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip aids stay below premium grip tools while pricing above basic chalk."
+    },
+    {
+      "sku": "AXS-0025",
+      "slug": "evo-three-finger-pull-up-hand-grip-pair",
+      "name": "EVO Three-Finger Pull-Up Hand Grip Pair",
+      "category": "Straps & Grips",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": 16.5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "grip pad or pull-up grip pair",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip aids stay below premium grip tools while pricing above basic chalk."
+    },
+    {
+      "sku": "AXS-0026",
+      "slug": "evo-chalk-ball-grip-chalk-system",
+      "name": "EVO Chalk Ball Grip Chalk System",
+      "category": "Straps & Grips",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 16,
+        "high": 25,
+        "anchor": 16
+      },
+      "deltaToAnchorPercent": 24.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "dry chalk system",
+      "sourceIds": [
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Chalk SKUs are kept in the impulse/accessory band and benchmarked against Rogue's chalk anchors."
+    },
+    {
+      "sku": "AXS-0027",
+      "slug": "evo-block-pack-grip-chalk-system",
+      "name": "EVO Block Pack Grip Chalk System",
+      "category": "Straps & Grips",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 16,
+        "high": 25,
+        "anchor": 16
+      },
+      "deltaToAnchorPercent": 24.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "dry chalk system",
+      "sourceIds": [
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Chalk SKUs are kept in the impulse/accessory band and benchmarked against Rogue's chalk anchors."
+    },
+    {
+      "sku": "AXS-0028",
+      "slug": "evo-liquid-chalk-grip-chalk-system",
+      "name": "EVO Liquid Chalk Grip Chalk System",
+      "category": "Straps & Grips",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 12.95,
+        "high": 22.95,
+        "anchor": 22.95
+      },
+      "deltaToAnchorPercent": -13.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "liquid chalk",
+      "sourceIds": [
+        "rogue-liquid-chalk"
+      ],
+      "rationale": "Chalk SKUs are kept in the impulse/accessory band and benchmarked against Rogue's chalk anchors."
+    },
+    {
+      "sku": "AXS-0029",
+      "slug": "evo-10-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 10 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 44.95,
+      "marketBand": {
+        "low": 41.24,
+        "high": 54.99,
+        "anchor": 54.99
+      },
+      "deltaToAnchorPercent": -18.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "10 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0030",
+      "slug": "evo-15-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 15 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 54.95,
+      "marketBand": {
+        "low": 56.24,
+        "high": 74.99,
+        "anchor": 74.99
+      },
+      "deltaToAnchorPercent": -26.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "15 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0031",
+      "slug": "evo-20-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 20 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 74.95,
+      "marketBand": {
+        "low": 71.24,
+        "high": 94.99,
+        "anchor": 94.99
+      },
+      "deltaToAnchorPercent": -21.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "20 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0032",
+      "slug": "evo-25-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 25 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 94.95,
+      "marketBand": {
+        "low": 97.49,
+        "high": 129.99,
+        "anchor": 129.99
+      },
+      "deltaToAnchorPercent": -27,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "25 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0033",
+      "slug": "evo-30-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 30 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 109.95,
+      "marketBand": {
+        "low": 112.49,
+        "high": 149.99,
+        "anchor": 149.99
+      },
+      "deltaToAnchorPercent": -26.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "30 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0034",
+      "slug": "evo-35-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 35 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 119.95,
+      "marketBand": {
+        "low": 123.74,
+        "high": 164.99,
+        "anchor": 164.99
+      },
+      "deltaToAnchorPercent": -27.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "35 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0035",
+      "slug": "evo-40-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 40 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 134.95,
+      "marketBand": {
+        "low": 134.99,
+        "high": 179.99,
+        "anchor": 179.99
+      },
+      "deltaToAnchorPercent": -25,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "40 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0036",
+      "slug": "evo-45-lb-rubber-hex-dumbbell-pair",
+      "name": "EVO 45 lb Rubber Hex Dumbbell Pair",
+      "category": "Dumbbells & Weights",
+      "evoPrice": 154.95,
+      "marketBand": {
+        "low": 146.24,
+        "high": 194.99,
+        "anchor": 194.99
+      },
+      "deltaToAnchorPercent": -20.5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "rubber hex dumbbell pair",
+      "sourceIds": [
+        "rep-hex-dumbbells"
+      ],
+      "rationale": "45 lb pair benchmarked against REP's same-weight pair; EVO should sit 15-25% under a national specialty brand."
+    },
+    {
+      "sku": "AXS-0037",
+      "slug": "evo-45-lb-olympic-bumper-plate-pair",
+      "name": "EVO 45 lb Olympic Bumper Plate Pair",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 169.95,
+      "marketBand": {
+        "low": 156.6,
+        "high": 179.22,
+        "anchor": 174
+      },
+      "deltaToAnchorPercent": -2.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "olympic bumper plate pair",
+      "sourceIds": [
+        "rogue-echo-bumpers"
+      ],
+      "rationale": "45 lb bumper pair benchmarked against Rogue Echo pair pricing; private-label EVO should be at or slightly under Rogue."
+    },
+    {
+      "sku": "AXS-0038",
+      "slug": "evo-2-5-lb-cast-iron-olympic-plate-pair",
+      "name": "EVO 2.5 lb Cast Iron Olympic Plate Pair",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 19,
+        "high": 75,
+        "anchor": 39
+      },
+      "deltaToAnchorPercent": -23.2,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "general accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-monster-bands"
+      ],
+      "rationale": "Fallback accessory band used only for SKUs without a closer specialty benchmark."
+    },
+    {
+      "sku": "AXS-0039",
+      "slug": "evo-5-lb-cast-iron-olympic-plate-pair",
+      "name": "EVO 5 lb Cast Iron Olympic Plate Pair",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 39.95,
+      "marketBand": {
+        "low": 19,
+        "high": 75,
+        "anchor": 39
+      },
+      "deltaToAnchorPercent": 2.4,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "general accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-monster-bands"
+      ],
+      "rationale": "Fallback accessory band used only for SKUs without a closer specialty benchmark."
+    },
+    {
+      "sku": "AXS-0040",
+      "slug": "evo-5-lb-set-color-change-plate-set",
+      "name": "EVO 5 lb Set Color Change Plate Set",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 44.95,
+      "marketBand": {
+        "low": 19,
+        "high": 75,
+        "anchor": 39
+      },
+      "deltaToAnchorPercent": 15.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "general accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-monster-bands"
+      ],
+      "rationale": "Fallback accessory band used only for SKUs without a closer specialty benchmark."
+    },
+    {
+      "sku": "AXS-0041",
+      "slug": "evo-45-lb-olympic-training-bar",
+      "name": "EVO 45 lb Olympic Training Bar",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 229.95,
+      "marketBand": {
+        "low": 199,
+        "high": 365,
+        "anchor": 365
+      },
+      "deltaToAnchorPercent": -37,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "barbell",
+      "sourceIds": [
+        "rogue-ohio-bar"
+      ],
+      "rationale": "45 lb training bar positioned below Rogue's premium Ohio Bar while still high enough for freight and steel margin."
+    },
+    {
+      "sku": "AXS-0042",
+      "slug": "evo-spring-olympic-bar-collar-pair",
+      "name": "EVO Spring Olympic Bar Collar Pair",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 15,
+        "high": 25,
+        "anchor": 24.95
+      },
+      "deltaToAnchorPercent": 0,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "spring collar pair",
+      "sourceIds": [
+        "rogue-aluminum-collars"
+      ],
+      "rationale": "Spring collars should price well below aluminum lock collars but still above disposable commodity sets."
+    },
+    {
+      "sku": "AXS-0043",
+      "slug": "evo-quick-lock-olympic-bar-collar-pair",
+      "name": "EVO Quick Lock Olympic Bar Collar Pair",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 29,
+        "high": 39,
+        "anchor": 34.95
+      },
+      "deltaToAnchorPercent": 0,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "quick-lock collar pair",
+      "sourceIds": [
+        "rogue-aluminum-collars"
+      ],
+      "rationale": "Polymer quick-lock collars should sit between spring collars and machined aluminum collars."
+    },
+    {
+      "sku": "AXS-0044",
+      "slug": "evo-aluminum-olympic-bar-collar-pair",
+      "name": "EVO Aluminum Olympic Bar Collar Pair",
+      "category": "Plates, Bars & Collars",
+      "evoPrice": 44.95,
+      "marketBand": {
+        "low": 39,
+        "high": 49,
+        "anchor": 45
+      },
+      "deltaToAnchorPercent": -0.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "aluminum collar pair",
+      "sourceIds": [
+        "rogue-aluminum-collars"
+      ],
+      "rationale": "Aluminum collar pair tracks Rogue's $45 anchor closely."
+    },
+    {
+      "sku": "AXS-0045",
+      "slug": "evo-adjustable-training-bench",
+      "name": "EVO Adjustable Training Bench",
+      "category": "Benches & Racks",
+      "evoPrice": 229.95,
+      "marketBand": {
+        "low": 219,
+        "high": 269.99,
+        "anchor": 269.99
+      },
+      "deltaToAnchorPercent": -14.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "adjustable bench",
+      "sourceIds": [
+        "rep-ab-3100"
+      ],
+      "rationale": "Adjustable bench positioned under REP AB-3100 while staying above low-end marketplace benches."
+    },
+    {
+      "sku": "AXS-0046",
+      "slug": "evo-j-hook-pair-rack-attachment",
+      "name": "EVO J-Hook Pair Rack Attachment",
+      "category": "Benches & Racks",
+      "evoPrice": 84.95,
+      "marketBand": {
+        "low": 59,
+        "high": 100,
+        "anchor": 84.97
+      },
+      "deltaToAnchorPercent": 0,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "steel or platform accessory",
+      "sourceIds": [
+        "titan-pullup-bar"
+      ],
+      "rationale": "Steel/platform accessories are benchmarked against nearby Titan steel accessory pricing."
+    },
+    {
+      "sku": "AXS-0047",
+      "slug": "evo-step-platform-flooring-and-platform-piece",
+      "name": "EVO Step Platform Flooring & Platform Piece",
+      "category": "Benches & Racks",
+      "evoPrice": 84.95,
+      "marketBand": {
+        "low": 59,
+        "high": 100,
+        "anchor": 84.97
+      },
+      "deltaToAnchorPercent": 0,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "steel or platform accessory",
+      "sourceIds": [
+        "titan-pullup-bar"
+      ],
+      "rationale": "Steel/platform accessories are benchmarked against nearby Titan steel accessory pricing."
+    },
+    {
+      "sku": "AXS-0048",
+      "slug": "evo-calf-block-flooring-and-platform-piece",
+      "name": "EVO Calf Block Flooring & Platform Piece",
+      "category": "Benches & Racks",
+      "evoPrice": 69.95,
+      "marketBand": {
+        "low": 59,
+        "high": 100,
+        "anchor": 84.97
+      },
+      "deltaToAnchorPercent": -17.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "steel or platform accessory",
+      "sourceIds": [
+        "titan-pullup-bar"
+      ],
+      "rationale": "Steel/platform accessories are benchmarked against nearby Titan steel accessory pricing."
+    },
+    {
+      "sku": "AXS-0049",
+      "slug": "evo-mini-band-set-resistance-band-system",
+      "name": "EVO Mini Band Set Resistance Band System",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 17,
+        "high": 75,
+        "anchor": 34
+      },
+      "deltaToAnchorPercent": -26.6,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "resistance band system",
+      "sourceIds": [
+        "rogue-monster-bands"
+      ],
+      "rationale": "Band systems map to Rogue's mobility band range, with kits priced by band count and included anchors."
+    },
+    {
+      "sku": "AXS-0050",
+      "slug": "evo-tube-set-resistance-band-system",
+      "name": "EVO Tube Set Resistance Band System",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 39.95,
+      "marketBand": {
+        "low": 17,
+        "high": 75,
+        "anchor": 34
+      },
+      "deltaToAnchorPercent": 17.5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "resistance band system",
+      "sourceIds": [
+        "rogue-monster-bands"
+      ],
+      "rationale": "Band systems map to Rogue's mobility band range, with kits priced by band count and included anchors."
+    },
+    {
+      "sku": "AXS-0051",
+      "slug": "evo-hip-circle-resistance-band-system",
+      "name": "EVO Hip Circle Resistance Band System",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 17,
+        "high": 75,
+        "anchor": 34
+      },
+      "deltaToAnchorPercent": -11.9,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "resistance band system",
+      "sourceIds": [
+        "rogue-monster-bands"
+      ],
+      "rationale": "Band systems map to Rogue's mobility band range, with kits priced by band count and included anchors."
+    },
+    {
+      "sku": "AXS-0052",
+      "slug": "evo-foam-roller-mobility-tool",
+      "name": "EVO Foam Roller Mobility Tool",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 25,
+        "high": 45,
+        "anchor": 34
+      },
+      "deltaToAnchorPercent": 2.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "foam roller",
+      "sourceIds": [
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Foam roller pricing is set above small ball tools and inside the common compact recovery accessory range."
+    },
+    {
+      "sku": "AXS-0053",
+      "slug": "evo-lacrosse-ball-set-mobility-tool",
+      "name": "EVO Lacrosse Ball Set Mobility Tool",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 7,
+        "high": 20,
+        "anchor": 7
+      },
+      "deltaToAnchorPercent": 185,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "lacrosse ball set",
+      "sourceIds": [
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Ball set can price above a single Rogue ball because it is packaged as a pair or small kit."
+    },
+    {
+      "sku": "AXS-0054",
+      "slug": "evo-stretch-strap-mobility-tool",
+      "name": "EVO Stretch Strap Mobility Tool",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 15,
+        "high": 30,
+        "anchor": 20
+      },
+      "deltaToAnchorPercent": -0.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "small mobility tool",
+      "sourceIds": [
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Small mobility tools stay in the low-friction add-on band."
+    },
+    {
+      "sku": "AXS-0055",
+      "slug": "evo-core-slider-set-bodyweight-trainer",
+      "name": "EVO Core Slider Set Bodyweight Trainer",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 15,
+        "high": 30,
+        "anchor": 20
+      },
+      "deltaToAnchorPercent": 24.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "small mobility tool",
+      "sourceIds": [
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Small mobility tools stay in the low-friction add-on band."
+    },
+    {
+      "sku": "AXS-0056",
+      "slug": "evo-ab-wheel-bodyweight-trainer",
+      "name": "EVO Ab Wheel Bodyweight Trainer",
+      "category": "Pull-Up & Mobility",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 25,
+        "high": 90,
+        "anchor": 90
+      },
+      "deltaToAnchorPercent": -66.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "ab wheel",
+      "sourceIds": [
+        "rogue-ab-wheel"
+      ],
+      "rationale": "EVO prices below Rogue's premium steel ab wheel while staying above entry plastic wheels."
+    },
+    {
+      "sku": "AXS-0057",
+      "slug": "evo-speed-jump-rope",
+      "name": "EVO Speed Jump Rope",
+      "category": "Conditioning",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 9,
+        "high": 49,
+        "anchor": 49
+      },
+      "deltaToAnchorPercent": -38.9,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "jump rope",
+      "sourceIds": [
+        "rogue-speed-rope",
+        "rogue-licorice-rope"
+      ],
+      "rationale": "Jump rope prices span entry PVC to bearing speed rope anchors."
+    },
+    {
+      "sku": "AXS-0058",
+      "slug": "evo-beaded-jump-rope",
+      "name": "EVO Beaded Jump Rope",
+      "category": "Conditioning",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 9,
+        "high": 49,
+        "anchor": 24
+      },
+      "deltaToAnchorPercent": 4,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "jump rope",
+      "sourceIds": [
+        "rogue-speed-rope",
+        "rogue-licorice-rope"
+      ],
+      "rationale": "Jump rope prices span entry PVC to bearing speed rope anchors."
+    },
+    {
+      "sku": "AXS-0059",
+      "slug": "evo-cordless-jump-rope",
+      "name": "EVO Cordless Jump Rope",
+      "category": "Conditioning",
+      "evoPrice": 34.95,
+      "marketBand": {
+        "low": 9,
+        "high": 49,
+        "anchor": 24
+      },
+      "deltaToAnchorPercent": 45.6,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "jump rope",
+      "sourceIds": [
+        "rogue-speed-rope",
+        "rogue-licorice-rope"
+      ],
+      "rationale": "Jump rope prices span entry PVC to bearing speed rope anchors."
+    },
+    {
+      "sku": "AXS-0060",
+      "slug": "evo-ladder-agility-kit",
+      "name": "EVO Ladder Agility Kit",
+      "category": "Conditioning",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 19,
+        "high": 40,
+        "anchor": 29
+      },
+      "deltaToAnchorPercent": 3.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "agility kit",
+      "sourceIds": [
+        "rogue-licorice-rope"
+      ],
+      "rationale": "Light conditioning kits should stay in the same add-on band as entry conditioning tools."
+    },
+    {
+      "sku": "AXS-0061",
+      "slug": "evo-cone-set-agility-kit",
+      "name": "EVO Cone Set Agility Kit",
+      "category": "Conditioning",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 19,
+        "high": 40,
+        "anchor": 29
+      },
+      "deltaToAnchorPercent": -14,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "agility kit",
+      "sourceIds": [
+        "rogue-licorice-rope"
+      ],
+      "rationale": "Light conditioning kits should stay in the same add-on band as entry conditioning tools."
+    },
+    {
+      "sku": "AXS-0062",
+      "slug": "evo-finger-trainer-hand-strength-tool",
+      "name": "EVO Finger Trainer Hand Strength Tool",
+      "category": "Conditioning",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -16.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "hand strength tool",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip strength tools sit below heavy grip attachments but above basic mobility add-ons."
+    },
+    {
+      "sku": "AXS-0063",
+      "slug": "evo-adjustable-gripper-hand-strength-tool",
+      "name": "EVO Adjustable Gripper Hand Strength Tool",
+      "category": "Conditioning",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 20,
+        "high": 45,
+        "anchor": 30
+      },
+      "deltaToAnchorPercent": -0.2,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "hand strength tool",
+      "sourceIds": [
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Grip strength tools sit below heavy grip attachments but above basic mobility add-ons."
+    },
+    {
+      "sku": "AXS-0064",
+      "slug": "evo-hot-cold-pack-recovery-tool",
+      "name": "EVO Hot-Cold Pack Recovery Tool",
+      "category": "Storage & Recovery",
+      "evoPrice": 29.95,
+      "marketBand": {
+        "low": 15,
+        "high": 35,
+        "anchor": 20
+      },
+      "deltaToAnchorPercent": 49.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "care and recovery add-on",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Care and recovery items are priced as useful low-friction add-ons without relying on a shipping minimum."
+    },
+    {
+      "sku": "AXS-0065",
+      "slug": "evo-barbell-brush-equipment-care-kit",
+      "name": "EVO Barbell Brush Equipment Care Kit",
+      "category": "Storage & Recovery",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 15,
+        "high": 35,
+        "anchor": 20
+      },
+      "deltaToAnchorPercent": 24.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "care and recovery add-on",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Care and recovery items are priced as useful low-friction add-ons without relying on a shipping minimum."
+    },
+    {
+      "sku": "AXS-0066",
+      "slug": "evo-sleeve-care-spray-equipment-care-kit",
+      "name": "EVO Sleeve Care Spray Equipment Care Kit",
+      "category": "Storage & Recovery",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 15,
+        "high": 35,
+        "anchor": 20
+      },
+      "deltaToAnchorPercent": -0.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "care and recovery add-on",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Care and recovery items are priced as useful low-friction add-ons without relying on a shipping minimum."
+    },
+    {
+      "sku": "AXS-0067",
+      "slug": "evo-equipment-tag-set-equipment-care-kit",
+      "name": "EVO Equipment Tag Set Equipment Care Kit",
+      "category": "Storage & Recovery",
+      "evoPrice": 19.95,
+      "marketBand": {
+        "low": 15,
+        "high": 35,
+        "anchor": 20
+      },
+      "deltaToAnchorPercent": -0.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "care and recovery add-on",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-lacrosse-balls"
+      ],
+      "rationale": "Care and recovery items are priced as useful low-friction add-ons without relying on a shipping minimum."
+    },
+    {
+      "sku": "AXS-0068",
+      "slug": "evo-grip-starter-training-bundle",
+      "name": "EVO Grip Starter Training Bundle",
+      "category": "Training Bundles",
+      "evoPrice": 69.95,
+      "marketBand": {
+        "low": 65,
+        "high": 105,
+        "anchor": 90
+      },
+      "deltaToAnchorPercent": -22.3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "grip starter bundle",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Bundle stacks straps, wraps, chalk, and grip pads while discounting below separate-piece value."
+    },
+    {
+      "sku": "AXS-0069",
+      "slug": "evo-pull-up-builder-training-bundle",
+      "name": "EVO Pull-Up Builder Training Bundle",
+      "category": "Training Bundles",
+      "evoPrice": 129.95,
+      "marketBand": {
+        "low": 119,
+        "high": 165,
+        "anchor": 154.87
+      },
+      "deltaToAnchorPercent": -16.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "pull-up builder bundle",
+      "sourceIds": [
+        "titan-pullup-bar",
+        "rogue-monster-bands",
+        "rogue-cannonball-grips"
+      ],
+      "rationale": "Bundle anchors to a pull-up bar plus bands and hand grips, with a visible discount against separate-piece value."
+    },
+    {
+      "sku": "AXS-0070",
+      "slug": "evo-deadlift-support-training-bundle",
+      "name": "EVO Deadlift Support Training Bundle",
+      "category": "Training Bundles",
+      "evoPrice": 149.95,
+      "marketBand": {
+        "low": 135,
+        "high": 170,
+        "anchor": 154.8
+      },
+      "deltaToAnchorPercent": -3.1,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "deadlift support bundle",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-aluminum-collars"
+      ],
+      "rationale": "Bundle value is belt, figure-8 straps, wrist wraps, and collars, with price near component value."
+    },
+    {
+      "sku": "AXS-0071",
+      "slug": "evo-home-strength-training-bundle",
+      "name": "EVO Home Strength Training Bundle",
+      "category": "Training Bundles",
+      "evoPrice": 239.95,
+      "marketBand": {
+        "low": 219,
+        "high": 279,
+        "anchor": 249
+      },
+      "deltaToAnchorPercent": -3.6,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "home strength bundle",
+      "sourceIds": [
+        "rep-hex-dumbbells",
+        "rogue-monster-bands",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Bundle combines weights, bands, and strap accessories with a visible discount against separate pieces."
+    },
+    {
+      "sku": "AXS-0072",
+      "slug": "evo-bench-starter-training-bundle",
+      "name": "EVO Bench Starter Training Bundle",
+      "category": "Training Bundles",
+      "evoPrice": 289.95,
+      "marketBand": {
+        "low": 269,
+        "high": 329,
+        "anchor": 299
+      },
+      "deltaToAnchorPercent": -3,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "bench starter bundle",
+      "sourceIds": [
+        "rep-ab-3100",
+        "rogue-aluminum-collars",
+        "rogue-wrist-wraps"
+      ],
+      "rationale": "Bundle should sit just above a standalone adjustable bench because it adds starter accessories."
+    },
+    {
+      "sku": "AXS-0073",
+      "slug": "evo-single-chalk-block",
+      "name": "EVO Single Chalk Block",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 2.95,
+      "marketBand": {
+        "low": 2.71,
+        "high": 3.48,
+        "anchor": 3.09
+      },
+      "deltaToAnchorPercent": -4.5,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Single Chalk Block sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0074",
+      "slug": "evo-chalk-ball-refill",
+      "name": "EVO Chalk Ball Refill",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 6.95,
+      "marketBand": {
+        "low": 6.39,
+        "high": 8.2,
+        "anchor": 7.29
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Chalk Ball Refill sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0075",
+      "slug": "evo-drawcord-chalk-pouch",
+      "name": "EVO Drawcord Chalk Pouch",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 12.95,
+      "marketBand": {
+        "low": 11.91,
+        "high": 15.28,
+        "anchor": 13.59
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Drawcord Chalk Pouch sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0076",
+      "slug": "evo-bar-grip-tape-roll",
+      "name": "EVO Bar Grip Tape Roll",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 8.95,
+      "marketBand": {
+        "low": 8.23,
+        "high": 10.56,
+        "anchor": 9.39
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Bar Grip Tape Roll sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0077",
+      "slug": "evo-thumb-tape-3-roll-pack",
+      "name": "EVO Thumb Tape 3-Roll Pack",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 10.95,
+      "marketBand": {
+        "low": 10.07,
+        "high": 12.92,
+        "anchor": 11.5
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Thumb Tape 3-Roll Pack sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0078",
+      "slug": "evo-mini-knurl-brush",
+      "name": "EVO Mini Knurl Brush",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 13.95,
+      "marketBand": {
+        "low": 12.83,
+        "high": 16.46,
+        "anchor": 14.64
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Mini Knurl Brush sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0079",
+      "slug": "evo-wrist-sweatband-pair",
+      "name": "EVO Wrist Sweatband Pair",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 9.95,
+      "marketBand": {
+        "low": 9.15,
+        "high": 11.74,
+        "anchor": 10.45
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Wrist Sweatband Pair sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0080",
+      "slug": "evo-chalk-bucket-liner",
+      "name": "EVO Chalk Bucket Liner",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 7.95,
+      "marketBand": {
+        "low": 7.31,
+        "high": 9.38,
+        "anchor": 8.35
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Chalk Bucket Liner sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0081",
+      "slug": "evo-finger-tape-strip-pack",
+      "name": "EVO Finger Tape Strip Pack",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 5.95,
+      "marketBand": {
+        "low": 5.47,
+        "high": 7.02,
+        "anchor": 6.24
+      },
+      "deltaToAnchorPercent": -4.6,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Finger Tape Strip Pack sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0082",
+      "slug": "evo-chalk-station-mat",
+      "name": "EVO Chalk Station Mat",
+      "category": "Chalk & Grip Basics",
+      "evoPrice": 27.95,
+      "marketBand": {
+        "low": 25.71,
+        "high": 32.98,
+        "anchor": 29.34
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "chalk & grip basics low-ticket accessory",
+      "sourceIds": [
+        "rogue-gym-chalk",
+        "rogue-liquid-chalk",
+        "rogue-ohio-straps"
+      ],
+      "rationale": "Chalk Station Mat sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0083",
+      "slug": "evo-microfiber-bench-towel",
+      "name": "EVO Microfiber Bench Towel",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 11.95,
+      "marketBand": {
+        "low": 10.99,
+        "high": 14.1,
+        "anchor": 12.54
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Microfiber Bench Towel sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0084",
+      "slug": "evo-bar-towel-2-pack",
+      "name": "EVO Bar Towel 2-Pack",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 17.95,
+      "marketBand": {
+        "low": 16.51,
+        "high": 21.18,
+        "anchor": 18.84
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Bar Towel 2-Pack sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0085",
+      "slug": "evo-mesh-wrap-wash-bag",
+      "name": "EVO Mesh Wrap Wash Bag",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 10.95,
+      "marketBand": {
+        "low": 10.07,
+        "high": 12.92,
+        "anchor": 11.5
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Mesh Wrap Wash Bag sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0086",
+      "slug": "evo-training-shoe-sack",
+      "name": "EVO Training Shoe Sack",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 15.95,
+      "marketBand": {
+        "low": 14.67,
+        "high": 18.82,
+        "anchor": 16.75
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Training Shoe Sack sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0087",
+      "slug": "evo-zipper-gear-pouch",
+      "name": "EVO Zipper Gear Pouch",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 18.95,
+      "marketBand": {
+        "low": 17.43,
+        "high": 22.36,
+        "anchor": 19.89
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Zipper Gear Pouch sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0088",
+      "slug": "evo-lift-log-pocket-notebook",
+      "name": "EVO Lift Log Pocket Notebook",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 7.95,
+      "marketBand": {
+        "low": 7.31,
+        "high": 9.38,
+        "anchor": 8.35
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Lift Log Pocket Notebook sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0089",
+      "slug": "evo-soft-tape-measure",
+      "name": "EVO Soft Tape Measure",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 5.95,
+      "marketBand": {
+        "low": 5.47,
+        "high": 7.02,
+        "anchor": 6.24
+      },
+      "deltaToAnchorPercent": -4.6,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Soft Tape Measure sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0090",
+      "slug": "evo-bottle-carabiner-clip",
+      "name": "EVO Bottle Carabiner Clip",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 8.95,
+      "marketBand": {
+        "low": 8.23,
+        "high": 10.56,
+        "anchor": 9.39
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Bottle Carabiner Clip sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0091",
+      "slug": "evo-band-keeper-strap-pair",
+      "name": "EVO Band Keeper Strap Pair",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 12.95,
+      "marketBand": {
+        "low": 11.91,
+        "high": 15.28,
+        "anchor": 13.59
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Band Keeper Strap Pair sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0092",
+      "slug": "evo-bench-cover-towel",
+      "name": "EVO Bench Cover Towel",
+      "category": "Gym Bag Essentials",
+      "evoPrice": 18.95,
+      "marketBand": {
+        "low": 17.43,
+        "high": 22.36,
+        "anchor": 19.89
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "gym bag essentials low-ticket accessory",
+      "sourceIds": [
+        "rogue-ohio-straps",
+        "rogue-wrist-wraps",
+        "rogue-gym-chalk"
+      ],
+      "rationale": "Bench Cover Towel sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0093",
+      "slug": "evo-mini-loop-band-light",
+      "name": "EVO Mini Loop Band Light",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 9.95,
+      "marketBand": {
+        "low": 9.15,
+        "high": 11.74,
+        "anchor": 10.45
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Mini Loop Band Light sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0094",
+      "slug": "evo-mini-loop-band-medium",
+      "name": "EVO Mini Loop Band Medium",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 12.95,
+      "marketBand": {
+        "low": 11.91,
+        "high": 15.28,
+        "anchor": 13.59
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Mini Loop Band Medium sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0095",
+      "slug": "evo-mini-loop-band-heavy",
+      "name": "EVO Mini Loop Band Heavy",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 15.95,
+      "marketBand": {
+        "low": 14.67,
+        "high": 18.82,
+        "anchor": 16.75
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Mini Loop Band Heavy sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0096",
+      "slug": "evo-lacrosse-mobility-ball",
+      "name": "EVO Lacrosse Mobility Ball",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 8.95,
+      "marketBand": {
+        "low": 8.23,
+        "high": 10.56,
+        "anchor": 9.39
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Lacrosse Mobility Ball sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0097",
+      "slug": "evo-peanut-mobility-ball",
+      "name": "EVO Peanut Mobility Ball",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 13.95,
+      "marketBand": {
+        "low": 12.83,
+        "high": 16.46,
+        "anchor": 14.64
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Peanut Mobility Ball sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0098",
+      "slug": "evo-mini-core-slider-pair",
+      "name": "EVO Mini Core Slider Pair",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 18.95,
+      "marketBand": {
+        "low": 17.43,
+        "high": 22.36,
+        "anchor": 19.89
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Mini Core Slider Pair sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0099",
+      "slug": "evo-compact-stretch-strap",
+      "name": "EVO Compact Stretch Strap",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 16.95,
+      "marketBand": {
+        "low": 15.59,
+        "high": 20,
+        "anchor": 17.8
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Compact Stretch Strap sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0100",
+      "slug": "evo-door-anchor-strap",
+      "name": "EVO Door Anchor Strap",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 12.95,
+      "marketBand": {
+        "low": 11.91,
+        "high": 15.28,
+        "anchor": 13.59
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Door Anchor Strap sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0101",
+      "slug": "evo-foam-wedge-pair",
+      "name": "EVO Foam Wedge Pair",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 24.95,
+      "marketBand": {
+        "low": 22.95,
+        "high": 29.44,
+        "anchor": 26.2
+      },
+      "deltaToAnchorPercent": -4.8,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Foam Wedge Pair sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    },
+    {
+      "sku": "AXS-0102",
+      "slug": "evo-floor-marker-disc-6-pack",
+      "name": "EVO Floor Marker Disc 6-Pack",
+      "category": "Setup & Mobility Minis",
+      "evoPrice": 28.95,
+      "marketBand": {
+        "low": 26.63,
+        "high": 34.16,
+        "anchor": 30.39
+      },
+      "deltaToAnchorPercent": -4.7,
+      "status": "keep",
+      "recommendation": "Keep price",
+      "benchmarkFamily": "setup & mobility minis low-ticket accessory",
+      "sourceIds": [
+        "rogue-monster-bands",
+        "rogue-lacrosse-balls",
+        "rogue-ab-wheel"
+      ],
+      "rationale": "Floor Marker Disc 6-Pack sits inside the low-ticket accessory band while keeping materials, contents, and storage role specific enough for repeat gym use."
+    }
+  ]
+}

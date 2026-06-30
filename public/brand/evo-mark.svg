@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="evo-mark-title">
+  <title id="evo-mark-title">EVO Sporting USA mark</title>
+  <defs>
+    <linearGradient id="evo-shell-gradient" x1="8" x2="64" y1="7" y2="66">
+      <stop offset="0" stop-color="#0C111B"/>
+      <stop offset="0.52" stop-color="#172234"/>
+      <stop offset="1" stop-color="#253145"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="64" height="64" rx="20" fill="url(#evo-shell-gradient)"/>
+  <rect x="23" y="21" width="8" height="30" rx="3" fill="#F8FBFF"/>
+  <rect x="23" y="21" width="27" height="8" rx="3" fill="#F8FBFF"/>
+  <rect x="23" y="32" width="21" height="8" rx="3" fill="#F8FBFF"/>
+  <rect x="23" y="43" width="27" height="8" rx="3" fill="#F8FBFF"/>
+  <circle cx="54.5" cy="25" r="4.6" fill="#F26A2E"/>
+</svg>

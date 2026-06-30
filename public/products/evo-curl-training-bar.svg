@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title">
+  <title>EVO Curl Training Bar</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8fafc" offset="0"/>
+      <stop stop-color="#e5e7eb" offset="1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" rx="54" fill="url(#bg)"/>
+  <circle cx="960" cy="220" r="128" fill="#ef4444" opacity=".14"/>
+  <circle cx="220" cy="950" r="190" fill="#1f2937" opacity=".08"/>
+  <ellipse cx="600" cy="858" rx="360" ry="58" fill="#cbd5e1" opacity=".55"/>
+
+      <g filter="url(#shadow)" stroke-linecap="round">
+        <path d="M205 590 H995" stroke="#d1d5db" stroke-width="62"/>
+        <path d="M255 470 V710 M335 450 V730 M865 450 V730 M945 470 V710" stroke="#1f2937" stroke-width="72"/>
+        <path d="M430 590 H770" stroke="#ef4444" stroke-width="40"/>
+      </g>
+</svg>

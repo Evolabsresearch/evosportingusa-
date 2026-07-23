@@ -21,6 +21,7 @@ export const metadata = {
 export default function MerchantDetailsPage() {
   const identityRows = [
     ["Legal name", site.legalName],
+    ["Registration No.", site.registrationNumber],
     ["Store name", site.name],
     ["Domain", site.domain],
     ["Write to", site.supportEmail],

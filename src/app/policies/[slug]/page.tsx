@@ -197,8 +197,12 @@ export default async function PolicyPage({ params }: { params: Promise<{ slug: s
   const workflowIntro = policyWorkflowIntro(policy.slug);
   const assistTitle = policyAssistTitle(policy.slug);
   const supportRows = [
-    ["Store", site.legalName],
+    ["Company", site.legalName],
+    ["Registration No.", site.registrationNumber],
+    ["Registered address", site.businessAddress],
+    ["Website", site.domain],
     ["Inbox", site.supportEmail],
+    ["Phone", site.supportPhone],
     ["Hours", site.hours],
   ] as const;
 

@@ -30,7 +30,7 @@ const contactInformationSections: Policy["sections"] = [
     : []),
   {
     heading: "Business Details",
-    body: `${site.legalName} is the seller for orders placed through ${site.domain}. Write to the listed inbox for order, return, warranty, privacy, and checkout questions.`,
+    body: `${site.legalName} (Company Registration No. ${site.registrationNumber}) is the seller for orders placed through ${site.siteUrl}. Registered address: ${site.businessAddress}. Write to ${site.supportEmail} or call ${site.supportPhone} for order, return, warranty, privacy, and checkout questions.`,
   },
 ];
 

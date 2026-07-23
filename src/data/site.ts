@@ -5,12 +5,19 @@ function publicValue(value: string | undefined) {
 
 export const site = {
   name: "EVO Sporting USA",
-  legalName: publicValue(process.env.NEXT_PUBLIC_EVO_LEGAL_NAME) || "EVO Sporting USA LLC",
+  legalName: publicValue(process.env.NEXT_PUBLIC_EVO_LEGAL_NAME) || "EVO INNOVATIONS LIMITED",
+  registrationNumber:
+    publicValue(process.env.NEXT_PUBLIC_EVO_REGISTRATION_NO) || "80896126",
   tagline: "Rack-ready equipment for practical strength rooms.",
   domain: publicValue(process.env.NEXT_PUBLIC_EVO_DOMAIN) || "evosportingusa.com",
-  supportEmail: publicValue(process.env.NEXT_PUBLIC_EVO_SUPPORT_EMAIL) || "support@evosportingusa.com",
-  supportPhone: publicValue(process.env.NEXT_PUBLIC_EVO_SUPPORT_PHONE),
-  businessAddress: publicValue(process.env.NEXT_PUBLIC_EVO_BUSINESS_ADDRESS),
+  siteUrl: "https://www.evosportingusa.com/",
+  supportEmail:
+    publicValue(process.env.NEXT_PUBLIC_EVO_SUPPORT_EMAIL) || "evosportingusa@gmail.com",
+  supportPhone:
+    publicValue(process.env.NEXT_PUBLIC_EVO_SUPPORT_PHONE) || "+1 (914) 860-3624",
+  businessAddress:
+    publicValue(process.env.NEXT_PUBLIC_EVO_BUSINESS_ADDRESS) ||
+    "FLAT 2304, 23/F HO KING COMM CENTRE, 2-16 FA YUEN STREET, MONG KOK, HONG KONG",
   hours: publicValue(process.env.NEXT_PUBLIC_EVO_SUPPORT_HOURS) || "Monday-Friday, 9:00 AM-5:00 PM ET",
   catalogSize: 102,
   fulfillmentNote: "Regional US fulfillment partners",

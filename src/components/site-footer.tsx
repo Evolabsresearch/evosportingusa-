@@ -14,10 +14,21 @@ export function SiteFooter() {
             <BrandLogo idPrefix="footer" tone="light" />
           </div>
           <p>{site.tagline}</p>
-          <p className="muted">
-            {site.legalName} - {site.supportEmail}
-            {site.supportPhone ? `. ${site.supportPhone}.` : "."}
-          </p>
+          <div className="footer-legal">
+            <p className="muted">
+              <strong>{site.legalName}</strong>
+              <br />
+              Company Registration No. {site.registrationNumber}
+            </p>
+            <p className="muted">{site.businessAddress}</p>
+            <p className="muted">
+              <a href={site.siteUrl}>{site.domain}</a>
+              <br />
+              <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>
+              <br />
+              <a href={`tel:${site.supportPhone.replace(/[^+\d]/g, "")}`}>{site.supportPhone}</a>
+            </p>
+          </div>
         </div>
         <div>
           <h2>Shop</h2>

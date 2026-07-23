@@ -9473,3 +9473,7 @@ textarea,
 /* ===== EVO white + crimson - primary CTA override (win the cascade) ===== */
 .button-dark { background: var(--orange); color: #ffffff; border-color: var(--orange); }
 .button-dark:hover { background: #be123c; border-color: #be123c; color: #ffffff; }
+/* ===== company legal block in footer ===== */
+.footer-legal p { margin: 0.4rem 0; line-height: 1.55; }
+.footer-legal a { text-decoration: underline; }
+.footer-legal strong { letter-spacing: 0.02em; }

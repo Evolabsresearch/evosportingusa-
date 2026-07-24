@@ -4,9 +4,10 @@ import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 import { loadStripe, type Stripe } from "@stripe/stripe-js";
 import { CardElement, Elements, useElements, useStripe } from "@stripe/react-stripe-js";
-import { CreditCard, Lock } from "lucide-react";
+import { CreditCard, Lock, Mail } from "lucide-react";
+import { site } from "@/data/site";
 import { formatMoney } from "@/lib/format";
-import type { CartLine } from "@/lib/cart";
+import { hydrateCart, type CartLine } from "@/lib/cart";
 
 const publishableKey = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
 let stripePromise: Promise<Stripe | null> | null = null;
@@ -157,12 +158,53 @@ function CardForm({ lines, promo, contact, total }: Props) {
 export function StripeCardPanel(props: Props) {
   const stripe = getStripe();
 
+  // No Stripe keys configured yet -> keep a working order path by email so the
+  // checkout is never a dead end. Adding the keys switches the card panel on.
   if (!stripe) {
+    const details = hydrateCart(props.lines);
+    const contact = props.contact;
+    const mailBody = [
+      `New order request from ${site.name}`,
+      "",
+      "Items:",
+      details.map((d) => `- ${d.quantity} x ${d.product.name} (${formatMoney(d.lineTotal)})`).join("\n") ||
+        "(cart contents)",
+      "",
+      `Total: ${formatMoney(props.total)}`,
+      "",
+      "Ship to:",
+      [
+        [contact?.firstName, contact?.lastName].filter(Boolean).join(" "),
+        contact?.address,
+        [contact?.city, contact?.state, contact?.postalCode].filter(Boolean).join(", "),
+        contact?.country,
+        contact?.phone ? `Phone: ${contact.phone}` : "",
+      ]
+        .filter(Boolean)
+        .join("\n") || "(shipping details)",
+      "",
+      contact?.email ? `Contact email: ${contact.email}` : "",
+    ]
+      .filter((row) => row !== "")
+      .join("\n");
+    const mailto = `mailto:${site.supportEmail}?subject=${encodeURIComponent(
+      `Order request - ${site.name}`,
+    )}&body=${encodeURIComponent(mailBody)}`;
+
     return (
-      <div className="payment-status-panel" role="status">
-        <span>
-          Card payment is being switched on. Please contact us and we&apos;ll complete your order.
-        </span>
+      <div className="pay-panel">
+        <div className="pay-panel-head">
+          <Mail size={20} aria-hidden="true" />
+          <strong>Order by email</strong>
+        </div>
+        <p className="pay-accepted">
+          Card payment is being switched on. Send us your order and our team will reply to confirm
+          availability and complete it. Nothing is charged now.
+        </p>
+        <a className="button button-dark full-width pay-button" href={mailto}>
+          <Mail size={18} aria-hidden="true" />
+          Email my order to {site.name}
+        </a>
       </div>
     );
   }

@@ -1,10 +1,10 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, ReactNode, useState } from "react";
 import { useRouter } from "next/navigation";
 import { loadStripe, type Stripe } from "@stripe/stripe-js";
 import { CardElement, Elements, useElements, useStripe } from "@stripe/react-stripe-js";
-import { CreditCard, Lock, Mail } from "lucide-react";
+import { CreditCard, Lock } from "lucide-react";
 import { site } from "@/data/site";
 import { formatMoney } from "@/lib/format";
 import { hydrateCart, type CartLine } from "@/lib/cart";
@@ -38,19 +38,76 @@ const CARD_STYLE = {
   },
 };
 
+/** Shared panel chrome so the live and preview states look identical. */
+function PanelBody({
+  cardField,
+  action,
+  note,
+  error,
+}: {
+  cardField: ReactNode;
+  action: ReactNode;
+  note?: ReactNode;
+  error?: string | null;
+}) {
+  const [sameBilling, setSameBilling] = useState(true);
+  return (
+    <>
+      <span className="pay-panel-tag">INSTANT · SECURE</span>
+
+      <div className="pay-panel-head">
+        <CreditCard size={20} aria-hidden="true" />
+        <strong>Credit / Debit Card</strong>
+        <span className="pay-brands">VISA · MC · AMEX · DISC</span>
+      </div>
+
+      <label className="pay-billing-toggle">
+        <input
+          type="checkbox"
+          name="sameBilling"
+          checked={sameBilling}
+          onChange={(event) => setSameBilling(event.target.checked)}
+        />
+        <span>
+          <strong>Billing address same as shipping</strong>
+          <small>
+            Uncheck this if the billing address on your card is different from where you&apos;re
+            shipping — matching it helps your card go through.
+          </small>
+        </span>
+      </label>
+
+      <div className="pay-card-field">{cardField}</div>
+      <p className="pay-accepted">Visa, Mastercard, American Express &amp; Discover accepted.</p>
+
+      {error ? (
+        <p className="pay-error" role="alert">
+          {error}
+        </p>
+      ) : null}
+
+      {action}
+      {note}
+    </>
+  );
+}
+
 function CardForm({ lines, promo, contact, total }: Props) {
   const stripe = useStripe();
   const elements = useElements();
   const router = useRouter();
-  const [sameBilling, setSameBilling] = useState(true);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  async function handleSubmit(event: FormEvent) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!stripe || !elements || busy) return;
     const card = elements.getElement(CardElement);
     if (!card) return;
+
+    const sameBilling =
+      (event.currentTarget.elements.namedItem("sameBilling") as HTMLInputElement | null)?.checked ??
+      true;
 
     setBusy(true);
     setError(null);
@@ -113,101 +170,85 @@ function CardForm({ lines, promo, contact, total }: Props) {
 
   return (
     <form className="pay-panel" onSubmit={handleSubmit}>
-      <span className="pay-panel-tag">INSTANT · SECURE</span>
-
-      <div className="pay-panel-head">
-        <CreditCard size={20} aria-hidden="true" />
-        <strong>Credit / Debit Card</strong>
-        <span className="pay-brands">VISA · MC · AMEX · DISC</span>
-      </div>
-
-      <label className="pay-billing-toggle">
-        <input
-          type="checkbox"
-          checked={sameBilling}
-          onChange={(event) => setSameBilling(event.target.checked)}
-        />
-        <span>
-          <strong>Billing address same as shipping</strong>
-          <small>
-            Uncheck this if the billing address on your card is different from where you&apos;re
-            shipping — matching it helps your card go through.
-          </small>
-        </span>
-      </label>
-
-      <div className="pay-card-field">
-        <CardElement options={CARD_STYLE} />
-      </div>
-      <p className="pay-accepted">Visa, Mastercard, American Express &amp; Discover accepted.</p>
-
-      {error ? (
-        <p className="pay-error" role="alert">
-          {error}
-        </p>
-      ) : null}
-
-      <button className="button button-dark full-width pay-button" type="submit" disabled={!stripe || busy}>
-        <Lock size={18} aria-hidden="true" />
-        {busy ? "Processing…" : `Pay ${formatMoney(total)}`}
-      </button>
+      <PanelBody
+        error={error}
+        cardField={<CardElement options={CARD_STYLE} />}
+        action={
+          <button
+            className="button button-dark full-width pay-button"
+            type="submit"
+            disabled={!stripe || busy}
+          >
+            <Lock size={18} aria-hidden="true" />
+            {busy ? "Processing…" : `Pay ${formatMoney(total)}`}
+          </button>
+        }
+      />
     </form>
+  );
+}
+
+/** Shown until Stripe keys are configured: same panel, inert card field. */
+function CardPanelPreview({ lines, contact, total }: Props) {
+  const details = hydrateCart(lines);
+  const mailBody = [
+    `New order request from ${site.name}`,
+    "",
+    "Items:",
+    details.map((d) => `- ${d.quantity} x ${d.product.name} (${formatMoney(d.lineTotal)})`).join("\n") ||
+      "(cart contents)",
+    "",
+    `Total: ${formatMoney(total)}`,
+    "",
+    "Ship to:",
+    [
+      [contact?.firstName, contact?.lastName].filter(Boolean).join(" "),
+      contact?.address,
+      [contact?.city, contact?.state, contact?.postalCode].filter(Boolean).join(", "),
+      contact?.country,
+      contact?.phone ? `Phone: ${contact.phone}` : "",
+    ]
+      .filter(Boolean)
+      .join("\n") || "(shipping details)",
+    "",
+    contact?.email ? `Contact email: ${contact.email}` : "",
+  ]
+    .filter((row) => row !== "")
+    .join("\n");
+  const mailto = `mailto:${site.supportEmail}?subject=${encodeURIComponent(
+    `Order request - ${site.name}`,
+  )}&body=${encodeURIComponent(mailBody)}`;
+
+  return (
+    <div className="pay-panel">
+      <PanelBody
+        cardField={
+          <div className="pay-card-placeholder" aria-hidden="true">
+            <span className="pay-card-number">1234 1234 1234 1234</span>
+            <span>MM / YY</span>
+            <span>CVC</span>
+          </div>
+        }
+        action={
+          <button className="button button-dark full-width pay-button" type="button" disabled>
+            <Lock size={18} aria-hidden="true" />
+            Pay {formatMoney(total)}
+          </button>
+        }
+        note={
+          <p className="pay-note">
+            Card payment is being switched on. In the meantime you can{" "}
+            <a href={mailto}>email your order</a> and our team will complete it.
+          </p>
+        }
+      />
+    </div>
   );
 }
 
 export function StripeCardPanel(props: Props) {
   const stripe = getStripe();
-
-  // No Stripe keys configured yet -> keep a working order path by email so the
-  // checkout is never a dead end. Adding the keys switches the card panel on.
-  if (!stripe) {
-    const details = hydrateCart(props.lines);
-    const contact = props.contact;
-    const mailBody = [
-      `New order request from ${site.name}`,
-      "",
-      "Items:",
-      details.map((d) => `- ${d.quantity} x ${d.product.name} (${formatMoney(d.lineTotal)})`).join("\n") ||
-        "(cart contents)",
-      "",
-      `Total: ${formatMoney(props.total)}`,
-      "",
-      "Ship to:",
-      [
-        [contact?.firstName, contact?.lastName].filter(Boolean).join(" "),
-        contact?.address,
-        [contact?.city, contact?.state, contact?.postalCode].filter(Boolean).join(", "),
-        contact?.country,
-        contact?.phone ? `Phone: ${contact.phone}` : "",
-      ]
-        .filter(Boolean)
-        .join("\n") || "(shipping details)",
-      "",
-      contact?.email ? `Contact email: ${contact.email}` : "",
-    ]
-      .filter((row) => row !== "")
-      .join("\n");
-    const mailto = `mailto:${site.supportEmail}?subject=${encodeURIComponent(
-      `Order request - ${site.name}`,
-    )}&body=${encodeURIComponent(mailBody)}`;
-
-    return (
-      <div className="pay-panel">
-        <div className="pay-panel-head">
-          <Mail size={20} aria-hidden="true" />
-          <strong>Order by email</strong>
-        </div>
-        <p className="pay-accepted">
-          Card payment is being switched on. Send us your order and our team will reply to confirm
-          availability and complete it. Nothing is charged now.
-        </p>
-        <a className="button button-dark full-width pay-button" href={mailto}>
-          <Mail size={18} aria-hidden="true" />
-          Email my order to {site.name}
-        </a>
-      </div>
-    );
-  }
+  if (!stripe) return <CardPanelPreview {...props} />;
 
   return (
     <Elements stripe={stripe}>

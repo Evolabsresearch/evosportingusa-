@@ -9496,3 +9496,9 @@ textarea,
 .pay-accepted { margin: 0; font-size: 0.82rem; color: var(--muted); }
 .pay-error { margin: 0; color: var(--danger); font-size: 0.9rem; font-weight: 600; }
 .pay-button { font-size: 1.05rem; }
+/* card field placeholder shown before Stripe keys are configured */
+.pay-card-placeholder { display: flex; align-items: center; gap: 1rem; color: #9aa0a6;
+  font-size: 1.05rem; }
+.pay-card-placeholder .pay-card-number { flex: 1; }
+.pay-note { margin: 0; font-size: 0.85rem; color: var(--muted); text-align: center; }
+.pay-note a { color: var(--orange); text-decoration: underline; font-weight: 600; }

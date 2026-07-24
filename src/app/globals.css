@@ -9477,3 +9477,22 @@ textarea,
 .footer-legal p { margin: 0.4rem 0; line-height: 1.55; }
 .footer-legal a { text-decoration: underline; }
 .footer-legal strong { letter-spacing: 0.02em; }
+/* ===== Stripe card payment panel ===== */
+.pay-panel { position: relative; border: 2px solid var(--line); border-radius: 16px;
+  background: var(--surface); padding: 1.5rem 1.25rem 1.25rem; display: grid; gap: 0.9rem; }
+.pay-panel-tag { position: absolute; top: -0.72rem; right: 1rem; background: var(--dark);
+  color: #fff; font-size: 0.66rem; font-weight: 800; letter-spacing: 0.08em;
+  padding: 0.3rem 0.7rem; border-radius: 999px; }
+.pay-panel-head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.pay-panel-head strong { font-size: 1.05rem; }
+.pay-brands { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.06em; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 999px; padding: 0.25rem 0.6rem; }
+.pay-billing-toggle { display: flex; gap: 0.6rem; align-items: flex-start; cursor: pointer; }
+.pay-billing-toggle input { margin-top: 0.25rem; width: 18px; height: 18px; accent-color: var(--orange); }
+.pay-billing-toggle small { display: block; color: var(--muted); font-size: 0.85rem;
+  line-height: 1.5; margin-top: 0.2rem; }
+.pay-card-field { border: 1px solid var(--line); border-radius: 12px; background: #ffffff;
+  padding: 0.95rem 1rem; }
+.pay-accepted { margin: 0; font-size: 0.82rem; color: var(--muted); }
+.pay-error { margin: 0; color: var(--danger); font-size: 0.9rem; font-weight: 600; }
+.pay-button { font-size: 1.05rem; }

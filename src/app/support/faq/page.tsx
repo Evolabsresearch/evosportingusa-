@@ -30,7 +30,7 @@ const faqGroups = [
   {
     icon: <Mail size={22} aria-hidden="true" />,
     label: "Checkout",
-    body: "Online card checkout is launching soon. For now, email your order and we'll confirm availability and arrange payment.",
+    body: "Pay securely by card at checkout. Visa, Mastercard, American Express and Discover accepted; card details go directly to Stripe.",
   },
 ] as const;
 
@@ -68,7 +68,7 @@ const faqs: { question: string; answer: string }[] = [
   {
     question: "How does checkout work?",
     answer:
-      `Checkout uses a two-step flow: contact and delivery first, then an order review with the order details and a ${formatMoney(site.standardShippingPrice)} delivery estimate next to the total. Online card checkout is launching soon — for now you can email your order to place it.`,
+      `Checkout uses a two-step flow: contact and delivery first, then a review step where you pay securely by card, with a ${formatMoney(site.standardShippingPrice)} delivery estimate shown next to the total.`,
   },
   {
     question: "Do I need an account to get support?",
@@ -96,7 +96,7 @@ const deskRows = [
   ["Order status", "Order number, checkout email, and any carrier message already received."],
   ["Return request", "Item condition, packaging status, delivery date, and reason for the return."],
   ["Warranty", "SKU, photos, storage notes, and a short description of how the issue appeared."],
-  ["Checkout", "Online card checkout is launching soon; email your order with item names and shipping details to place it."],
+  ["Checkout", "Order number, checkout email, and the last 4 digits of the card if it is a payment question."],
 ] as const;
 
 const faqRouteCards = [
@@ -109,7 +109,7 @@ const faqRouteCards = [
   {
     icon: <CreditCard size={20} aria-hidden="true" />,
     title: "Placing an order",
-    body: "Online card checkout is launching soon — email your order to confirm availability and place it.",
+    body: "Pay securely by card at checkout — Visa, Mastercard, American Express and Discover accepted.",
     href: "/policies/payment-and-billing",
   },
   {

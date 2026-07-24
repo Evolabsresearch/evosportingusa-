@@ -45,13 +45,13 @@ function policyFacts(slug: string) {
       ["Storage", "Normal home-gym use and proper care"],
     ],
     "payment-and-billing": [
-      ["Online payment", "Card checkout is launching soon"],
-      ["Placing an order", "Email your order to confirm availability and arrange payment"],
+      ["Online payment", "Card payments processed securely by Stripe"],
+      ["Cards accepted", "Visa, Mastercard, American Express, Discover"],
       ["Order email", "Order and shipping emails go to the checkout email"],
     ],
     "privacy-policy": [
       ["Order data", "Contact, shipping, order contents, and support messages"],
-      ["Payment data", "No card payment is taken on the site yet"],
+      ["Payment data", "Card details go directly to Stripe; we never store card numbers"],
       ["Requests", `Write to ${site.supportEmail}`],
     ],
     "terms-of-service": [
@@ -100,14 +100,14 @@ function policyWorkflow(slug: string) {
       ["Next step", "The answer may be repair guidance, replacement handling, or another product-specific reply."],
     ],
     "payment-and-billing": [
-      ["Placing an order", "Add items, enter shipping, then email your order to confirm availability."],
-      ["What we compare", "We match your request to order details and current stock."],
-      ["No card on site", "Card checkout is launching soon; nothing is charged on the storefront yet."],
+      ["Placing an order", "Add items, enter shipping, then pay securely by card at checkout."],
+      ["What we compare", "We match the charge to your order details, payment status, and shipment status."],
+      ["Card handling", "Card details are entered into Stripe's secure fields and never touch our servers."],
     ],
     "privacy-policy": [
       ["Privacy requests", "Start with the checkout email tied to the order or message."],
       ["Record handling", "Some order, support, and legal records have required retention periods."],
-      ["Payment data", "No card numbers are collected on the site; checkout is launching soon."],
+      ["Payment data", "Full card numbers go directly to Stripe and are never stored by the store."],
     ],
     "terms-of-service": [
       ["Before ordering", "Review item specs, intended use, pricing, delivery, and store policies before ordering."],
@@ -144,8 +144,8 @@ function policyWorkflowIntro(slug: string) {
       body: "Use clear photos, the SKU, the order number, and storage notes when asking about warranty coverage.",
     },
     "payment-and-billing": {
-      title: "Placing an order.",
-      body: "Add items, enter shipping, and email your order — card checkout is launching soon and nothing is charged on the site yet.",
+      title: "Paying for an order.",
+      body: "Add items, enter shipping, and pay securely by card at checkout. Card details go straight to Stripe and are never stored by the store.",
     },
     "privacy-policy": {
       title: "Checkout, order, and support records.",

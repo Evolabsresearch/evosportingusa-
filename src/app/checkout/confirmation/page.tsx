@@ -26,10 +26,10 @@ export default async function ConfirmationPage({
       <section className="confirmation-panel" aria-label="Order confirmed">
         <CheckCircle2 size={44} aria-hidden="true" />
         <p className="eyebrow">Order confirmed</p>
-        <h1>Thanks — we have your request.</h1>
+        <h1>Thanks — your order is confirmed.</h1>
         <p className="confirmation-lead">
-          We&apos;ve received your order request. No payment has been taken yet —
-          our team will email you to confirm availability and arrange payment{order ? " with your order details" : ""}.
+          Your payment went through and we&apos;ve started processing your order.
+          A confirmation email is on its way{order ? " with your order details" : ""}.
         </p>
         {order ? (
           <p className="confirmation-ref">

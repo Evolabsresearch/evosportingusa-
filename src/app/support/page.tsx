@@ -28,7 +28,7 @@ export default function SupportPage() {
     ["Delivery question", "Order number, checkout email, and the item or carton in question."],
     ["Return request", "Order number, item condition, packaging status, and reason for the return."],
     ["Warranty", "Order number, SKU, photos, storage notes, and how the issue appeared."],
-    ["Placing an order", "Online card checkout is launching soon; email your order with item names and shipping details to place it."],
+    ["Placing an order", "Add items to the cart, enter shipping, and pay securely by card at checkout."],
   ] as const;
   const supportCards = [
     {

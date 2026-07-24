@@ -43,7 +43,7 @@ export default function MerchantDetailsPage() {
     {
       icon: <CreditCard size={24} aria-hidden="true" />,
       title: "Checkout",
-      body: "Checkout collects contact and shipping details and shows your order total. Online card payment is launching soon — orders can be placed by email for now.",
+      body: "Checkout collects contact and shipping details, then takes secure card payment through Stripe. Full card data never touches our servers.",
     },
     {
       icon: <PackageCheck size={24} aria-hidden="true" />,
@@ -58,7 +58,7 @@ export default function MerchantDetailsPage() {
     ["Warranty", `${site.warranty}; order number and photos help with a claim.`],
   ] as const;
   const checkoutRows = [
-    ["Online payment", "Card checkout is launching soon; place an order by email for now."],
+    ["Online payment", "Secure card payment via Stripe (Visa, Mastercard, Amex, Discover)."],
     ["Delivery", `${formatMoney(site.standardShippingPrice)} flat standard rate, no order minimum.`],
     ["Order updates", "Order and shipping updates use the checkout email."],
   ] as const;

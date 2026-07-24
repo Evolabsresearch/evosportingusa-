@@ -111,7 +111,7 @@ export const policies: Policy[] = [
     sections: [
       {
         heading: "Information We Collect",
-        body: "Checkout and support flows may collect contact details, shipping information, order contents, and support messages. No card payment is taken on the site yet.",
+        body: "Checkout and support flows may collect contact details, shipping information, order contents, support messages, and payment status. Card payments are handled by Stripe; full card numbers are never stored by the store.",
       },
       {
         heading: "How We Use Information",
@@ -130,7 +130,7 @@ export const policies: Policy[] = [
     sections: [
       {
         heading: "Payment Handling",
-        body: "Online card checkout is not enabled on the site yet. To place an order, add items to the cart, enter your shipping details, and email your order; our team replies to confirm availability and arrange payment. No card data is collected or charged on the storefront.",
+        body: "Card payments are processed securely by Stripe. Card details are entered directly into Stripe's secure fields and never touch our servers. We keep only the order details, payment status, and delivery status needed to complete your order. Visa, Mastercard, American Express, and Discover are accepted.",
       },
       {
         heading: "Completing an Order",

@@ -188,7 +188,58 @@ function CardForm({ lines, promo, contact, total }: Props) {
   );
 }
 
-/** Shown until Stripe keys are configured: same panel, inert card field. */
+function formatCardNumber(value: string) {
+  return value.replace(/\D/g, "").slice(0, 19).replace(/(.{4})/g, "$1 ").trim();
+}
+function formatExpiry(value: string) {
+  const digits = value.replace(/\D/g, "").slice(0, 4);
+  return digits.length > 2 ? `${digits.slice(0, 2)} / ${digits.slice(2)}` : digits;
+}
+
+/**
+ * Typeable card row used before Stripe keys exist. Purely local UI state —
+ * these values are never submitted, stored, or sent anywhere. Once the keys
+ * are set, Stripe's real CardElement replaces this entirely.
+ */
+function PreviewCardInputs() {
+  const [number, setNumber] = useState("");
+  const [expiry, setExpiry] = useState("");
+  const [cvc, setCvc] = useState("");
+
+  return (
+    <div className="pay-card-inputs">
+      <input
+        className="pay-card-number"
+        inputMode="numeric"
+        autoComplete="off"
+        aria-label="Card number"
+        placeholder="1234 1234 1234 1234"
+        value={number}
+        onChange={(event) => setNumber(formatCardNumber(event.target.value))}
+      />
+      <input
+        className="pay-card-exp"
+        inputMode="numeric"
+        autoComplete="off"
+        aria-label="Expiry"
+        placeholder="MM / YY"
+        value={expiry}
+        onChange={(event) => setExpiry(formatExpiry(event.target.value))}
+      />
+      <input
+        className="pay-card-cvc"
+        inputMode="numeric"
+        autoComplete="off"
+        aria-label="CVC"
+        placeholder="CVC"
+        value={cvc}
+        onChange={(event) => setCvc(event.target.value.replace(/\D/g, "").slice(0, 4))}
+      />
+    </div>
+  );
+}
+
+/** Shown until Stripe keys are configured: same panel, typeable card field. */
 function CardPanelPreview({ lines, contact, total }: Props) {
   const details = hydrateCart(lines);
   const mailBody = [
@@ -222,13 +273,7 @@ function CardPanelPreview({ lines, contact, total }: Props) {
   return (
     <div className="pay-panel">
       <PanelBody
-        cardField={
-          <div className="pay-card-placeholder" aria-hidden="true">
-            <span className="pay-card-number">1234 1234 1234 1234</span>
-            <span>MM / YY</span>
-            <span>CVC</span>
-          </div>
-        }
+        cardField={<PreviewCardInputs />}
         action={
           <button className="button button-dark full-width pay-button" type="button" disabled>
             <Lock size={18} aria-hidden="true" />

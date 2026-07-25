@@ -69,7 +69,7 @@ export function PromoCodePanel({ subtotal, className = "" }: PromoCodePanelProps
       {isApplied ? (
         <p className="promo-code-status is-applied" role="status">
           <CheckCircle2 size={16} aria-hidden="true" />
-          {promoCode} active: {formatMoney(discount)} off gear.
+          {code} active: {formatMoney(discount)} off gear.
         </p>
       ) : message === "invalid" ? (
         <p className="promo-code-status" role="status">
